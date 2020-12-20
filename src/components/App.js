@@ -1,7 +1,12 @@
 import React from "react";
+import AboutUs from "../pages/AboutUs";
 
 const App = () => {
-  return <h1>welcome to the capture project!!</h1>;
+  return (
+    <div>
+      <AboutUs />
+    </div>
+  );
 };
 
 export default App;
