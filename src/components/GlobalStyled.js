@@ -7,9 +7,17 @@ const GlobalStyle = createGlobalStyle`
     box-sizing:border-box;
 
 }
+html{
+    @media (max-width: 1700px){
+        font-size: 75%;
+    }
+    
+}
 body{
     background-color:#1b1b1b;
     color:white;
+    font-family:'Inter',sans-serif;
+    overflow-x:hidden;
 }
 button{
     font-weight:bold;
@@ -20,6 +28,7 @@ button{
     background:transparent;
     color:white;
     transition:all 0.5 ease;
+    font-family:'Inter',sans-serif;
     &:hover{
         background-color:#23d997;
         color:white;
@@ -50,6 +59,11 @@ span{
 }
 a{
     font-size:1.1rem;
+}
+
+.active-link{
+   color:#23d997 !important; 
+
 }
 
 `;
